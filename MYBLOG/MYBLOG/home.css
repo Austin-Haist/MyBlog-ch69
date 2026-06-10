@@ -1,0 +1,47 @@
+/*tag selector*/
+body{
+    font-family: arial;
+}
+header{
+    background-color: rgb(28, 161,179);
+    color: white;
+}
+a{
+    color: white;
+    margin-right: 20px;
+}
+img{
+    max-width: 100%;
+    }
+/* class selector . */
+.large-text{
+    font-size: 25px;
+}
+
+/*header*/
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.container-blog{
+    display: flex;
+    gap:10px;
+}
+.container-blog img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+body{
+    font-family: arial;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
